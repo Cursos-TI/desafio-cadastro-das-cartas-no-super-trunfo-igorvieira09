@@ -1,0 +1,111 @@
+#include <stdio.h>
+
+  int main(){
+
+    char estado[20];
+    char codigo[10];
+    char Cidade[10];
+    int populaçao;
+    float Àrea;
+    float pib;
+    int pontos;
+    float densidadadePopulaciona;
+    float PIbpercapita;
+
+     printf("Digite o nome do estado: \n");
+      scanf("%s",&estado);
+      
+
+      printf("Digite o Codigo da carta: \n");
+       scanf("%s",&codigo);
+        
+
+       printf("Digite o Nome da Cidade:: \n]");
+        scanf("%s",&Cidade);
+         
+
+        printf("Digite o Numero da Populaçao: \n ");
+         scanf("%d",&populaçao);
+          
+
+         printf("Digite a Àrea em km²: \n");
+          scanf("%f",&Àrea);
+
+
+          printf("Digite o PIB Da Cidade: \n");
+           scanf("%f",&pib);
+
+           
+           printf("Digite o Numero de Pontos turisticos: \n");
+            scanf("%d",&pontos);
+
+             float divisao =  pib / populaçao ;
+              
+             float quociente = populaçao / Àrea ;
+              printf("nome do estado:%s\n",estado);
+               printf("Codigo da carta:%s\n",codigo);
+                printf("Nome da Cidade:%s\n",Cidade);
+                 printf("Numero da populaçao:%d\n",populaçao);
+                  printf("Àrea em km²:%.4f\n",Àrea);
+                   printf("PIB da Cidade:%.4f\n",pib);
+                   printf("O Pib Percapita é: %.3f\n",divisao);
+                   printf("A Densidade Populacional é: %.3f\n",quociente);
+                    printf("Numero de pontos turisticos:%.3d\n\n\n",pontos);
+
+
+                        
+                
+                     
+                     printf("Digite o nome do estado: \n");
+                      scanf("%s",&estado);
+                      
+                
+                      printf("Digite o Codigo da carta: \n");
+                       scanf("%s",&codigo);
+                        
+                
+                       printf("Digite o Nome da Cidade:: \n]");
+                        scanf("%s",&Cidade);
+                         
+                
+                        printf("Digite o Numero da Populaçao: \n ");
+                         scanf("%d",&populaçao);
+                          
+                
+                         printf("Digite a Àrea em km²: \n");
+                          scanf("%f",&Àrea);
+                
+                
+                          printf("Digite o PIB Da Cidade: \n");
+                           scanf("%f",&pib);
+                
+                           
+                           printf("Digite o Numero de Pontos turisticos: \n");
+                            scanf("%d",&pontos);
+                
+                            float quocinete  =  (float) pib / populaçao;
+
+                           float dividendo  =  populaçao/ Àrea;
+                               
+   
+
+                              printf("nome do estado:%s\n",estado);
+                               printf("Codigo da carta:%s\n",codigo);
+                                printf("Nome da Cidade:%s\n",Cidade);
+                                 printf("Numero da populaçao:%d\n",populaçao);
+                                  printf("Àrea em km²:%.4f\n",Àrea);
+                                   printf("PIB da Cidade:%.4f\n",pib);
+                                    printf("Numero de pontos turisticos:%d\n",pontos);
+                                      printf("O Pib Percapita é: %.3f\n",dividendo);
+                                      printf("A Densidade populacionale é: %.3f\n",quocinete);
+                                          
+
+
+
+
+
+
+
+
+
+  }
